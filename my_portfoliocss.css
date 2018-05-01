@@ -38,6 +38,12 @@ html, body {
 #Github-link{
   text-align: right;
 }
+
+
+
+
+/* About me section */;
+
 #Aboutme{
 
  transition: background-color 0.5s ease;
@@ -50,7 +56,6 @@ html, body {
 
 
 
-/* About me section */;
 
 
 .col-4  {
@@ -61,7 +66,7 @@ html, body {
 
 
 #About-me-header{
-  /* background-color: #af9e83; */
+
   width: 100%;
 }
 
@@ -99,12 +104,16 @@ padding-bottom: 40px;
   top: -8px;
 }
 
+/* My class for my title so they stay consistant  */
+
 .titles{
   background-color: #8c795a;
   text-align: center;
   font-size: 50px;
 
 }
+
+/* Skills section */
 
 #Skills{
   background-color: ;
@@ -168,6 +177,9 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+/* This is used so my website works on mobile devices */
+
 @media only screen and (max-width:550px) {
   .parallax{
 
