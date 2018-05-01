@@ -24,7 +24,7 @@ html, body {
 
   /* navbar css */
 
-.bg-light {
+.bg-dark {
       background-color: #8c795a !important;
   }
 
@@ -93,7 +93,7 @@ padding-bottom: 40px;
   background-color: #8c795a;
   text-align: center;
   font-size: 50px
-   
+  siz
 }
 
 #Skills{
