@@ -152,7 +152,9 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
-@media screen and (max-width:550px) {
+@media only screen and (max-width:550px) {
+  .parallax{
 
   background-attachment: scroll;
+  }
 }
