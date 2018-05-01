@@ -155,5 +155,6 @@ input[type=submit]:hover {
 @media screen and (max-width:550px) {
 
   background-attachment: scroll;
-  height: 100vh;
+  background-size: cover;
+
 }
