@@ -1,0 +1,154 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1519893578517-3252b77e8fdf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=360a6f43b0507da46c0a9259c42fa265&auto=format&fit=crop&w=1949&q=80");
+
+    /* Set a specific height */
+    min-height: 850px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%;
+    margin-left: 14px; */
+  }
+
+  /* navbar css */
+
+.bg-light {
+      background-color: #8c795a !important;
+  }
+
+#Aboutme{
+
+ transition: background-color 0.5s ease;
+  background-color: #af9e83;
+}
+#Aboutme:hover {
+  background-color: #8c795a;
+}
+
+
+
+
+/* About me section */;
+
+
+.col-4  {
+  border-width: thick;
+  border-color: black;
+  background-color: blue;
+}
+
+
+#About-me-header{
+  /* background-color: #af9e83; */
+  width: 100%;
+}
+
+
+
+
+#Aboutme h2 {
+
+  text-align: center;
+  margin-top: -60px;
+  padding: 0px 0px 20px 0px;
+}
+
+#About-me-image{
+  width: inherit;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 0;
+  top: 0;
+}
+
+
+.para-inner strong h3 i {
+
+font-size: 100px;
+color: blue;
+padding-bottom: 40px;
+
+}
+/* .row{
+  padding: 0 0;
+} */
+.col-md-4{
+  /* padding: 0px 0px; */
+  top: -8px;
+}
+
+
+#Skills{
+  background-color: ;
+  text-align: center;
+
+}
+
+#skills-heading{
+  font-size: 100px;
+}
+
+#letter-r{
+  height: 90px;
+  width: 90px;
+}
+
+#ruby-png{
+  height: 90px;
+  width: 90px;
+}
+
+#rails-png{
+  height: 90px;
+  width: 90px;
+}
+
+#contact-me-page{
+  background-color: #8c795a;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
